@@ -1,0 +1,40 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "flow": "flow",
+    "gulp": "gulp",
+    "lint": "eslint --ext .js build source express.js",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "node express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.2",
+    "body-parser": "^1.19.0",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "express": "^4.17.1",
+    "flow-bin": "^0.102.0",
+    "glob": "^7.1.4",
+    "gulp": "^4.0.2",
+    "merge-stream": "^2.0.0",
+    "polymer-build": "^3.1.4",
+    "through2": "^3.0.1",
+    "vinyl": "^2.2.0"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "lit-element": "^2.2.0"
+  }
+}
